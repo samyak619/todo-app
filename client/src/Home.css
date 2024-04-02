@@ -1,0 +1,47 @@
+/* Home.css */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title styles */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Task styles */
+.task {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Check styles */
+.check {
+    display: flex;
+    align-items: center;
+}
+
+/* Task text styles */
+.task p {
+    font-size: 18px;
+    color: #333;
+    margin-left: 10px;
+}
+
+/* Delete button styles */
+.delete-btn {
+    cursor: pointer;
+    color: #dc3545;
+    margin-left: auto;
+}
+
+.delete-btn:hover {
+    color: #a52a2a;
+}
